@@ -1,0 +1,46 @@
+.designFooter{
+    width: 1340px;
+    height: 244px;
+    background-color: #265E6C;
+}
+
+.containerLogoText{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto auto;
+}
+
+.areaMcontigo{
+    display: grid;
+
+}
+
+.imgMcontigo{
+    width: 220px;
+    height: 30px;
+}
+
+.areaTextFooter{
+    width: 400px;
+    height: 80px;
+    font-size: 12px;
+    font-family: Merriweather;
+    color: #FFFF;
+    background-color: #265E6C;
+}
+
+.bottomButtonsContainer{
+    display: grid;
+    justify-items: center;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+}
+
+.bottomButtons{
+    display: grid;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+}
+
