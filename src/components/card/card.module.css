@@ -1,0 +1,24 @@
+.img{
+    width: 100%;
+    height: inherit;
+}
+
+.imgDisplayFlexRow{
+    width: 50%;
+    height: inherit;
+}
+
+.displayFlexRow{
+    display: flex;
+    height: inherit;
+    width:"99%"; 
+    height:"100%";
+}
+
+.displayFlexColumn{
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    width:"99%"; 
+    height:"100%";
+}

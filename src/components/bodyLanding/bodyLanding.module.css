@@ -1,0 +1,47 @@
+.mainLayout{
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 1fr) 1fr;
+    grid-template-areas:
+        "LS arSec arSec arSec arSec RS";
+}
+
+.leftSection{
+    grid-area: LS;
+}
+
+.rigthSection{
+    grid-area: RS;
+}
+
+.mainArticle{
+    grid-area: Mn;
+    height: 100%;
+}
+.asideArticle{
+    grid-area: AA;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.articleSection{
+    grid-area: arSec;
+    display:flex;
+    flex-flow: column;
+}
+.topArticle{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.middleArticle{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "Mn AA"
+        "Mn AA"
+        "Mn AA";
+}
