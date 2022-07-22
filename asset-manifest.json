@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontend-dev-challenge/static/css/main.439a76cf.css",
+    "main.css": "/frontend-dev-challenge/static/css/main.c769545f.css",
     "main.js": "/frontend-dev-challenge/static/js/main.30b2b48e.js",
     "static/js/787.0c3f432a.chunk.js": "/frontend-dev-challenge/static/js/787.0c3f432a.chunk.js",
     "static/media/fifthImg.png": "/frontend-dev-challenge/static/media/fifthImg.aa2f82f1db6f3d9d68b3.png",
@@ -20,12 +20,12 @@
     "static/media/imgComputer.JPG": "/frontend-dev-challenge/static/media/imgComputer.79e17b3bcfd31db1596e.JPG",
     "static/media/iconCheck.png": "/frontend-dev-challenge/static/media/iconCheck.cd61f55e9c05a339201d.png",
     "index.html": "/frontend-dev-challenge/index.html",
-    "main.439a76cf.css.map": "/frontend-dev-challenge/static/css/main.439a76cf.css.map",
+    "main.c769545f.css.map": "/frontend-dev-challenge/static/css/main.c769545f.css.map",
     "main.30b2b48e.js.map": "/frontend-dev-challenge/static/js/main.30b2b48e.js.map",
     "787.0c3f432a.chunk.js.map": "/frontend-dev-challenge/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.439a76cf.css",
+    "static/css/main.c769545f.css",
     "static/js/main.30b2b48e.js"
   ]
 }
