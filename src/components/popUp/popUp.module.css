@@ -11,6 +11,12 @@
     align-items: center;
     justify-content: center;
   }
+
+  .reviewFont{
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+
   .modal {
     display: block;
     position: fixed;

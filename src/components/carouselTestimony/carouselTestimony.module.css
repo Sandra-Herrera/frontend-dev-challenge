@@ -56,6 +56,10 @@ ol, li {
   height: 20vh;
 }
 
+.reviewFont{font-size: 18px;
+    font-family: sans-serif;
+}
+
 .carousel__viewport {
   top: 0;
   right: 0;

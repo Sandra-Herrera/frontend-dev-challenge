@@ -12,7 +12,7 @@ const Card = (props) => {
             <Popup setVisible={setVisible} visible={visible} srcImg={props.srcImg} title={props.title} description={props.description}/>
             <article className={props.applyFlex? styles.displayFlexRow:styles.displayFlexColumn} onClick={callPopUp}>
                 <img src={props.srcImg} alt={props.title} className={props.applyFlex ? styles.imgDisplayFlexRow : styles.img}></img>
-                <p>{props.title}</p>
+                <p className={styles.titleCard}>{props.title}</p>
             </article>
         </>
     );

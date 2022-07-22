@@ -2,11 +2,13 @@
     .img{
         width: 100%;
         height: inherit;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     .imgDisplayFlexRow{
         width: 50%;
         height: inherit;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     .displayFlexRow{
@@ -18,7 +20,7 @@
 
     .displayFlexRow:hover{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        background-color: gray;
+        background-color: #F778B9;
     }
 
     .displayFlexColumn{
@@ -31,7 +33,13 @@
 
     .displayFlexColumn:hover{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        background-color: gray;
+        background-color: #F778B9;
+    }
+
+    .titleCard{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
     }
 }
 
@@ -40,11 +48,13 @@
     .img{
         width: 100%;
         height: inherit;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     .imgDisplayFlexRow{
         width: 100%;
         height: inherit;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     .displayFlexRow{
