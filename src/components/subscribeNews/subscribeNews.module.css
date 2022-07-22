@@ -1,0 +1,42 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+    background-color: #ECF0F7;
+}
+
+.img{
+    height:35px;
+    margin-right: 10px;
+}
+
+.emailContainer{
+    display: flex;
+    flex-flow: column;
+}
+.btn{
+    background-color:#B378FF;
+    border-color: #B378FF;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+}
+.input{
+    border-color: #CECECE;
+    border-radius: 4px;
+}
+
+span{
+    text-align: center;
+    color: #486DB7;
+    font-weight: bold;
+}

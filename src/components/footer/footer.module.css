@@ -1,65 +1,134 @@
-.designFooter{
-    display: grid;
-    grid-template-areas:
-        "head head"
-        "main main"
-        "hr   hr"
-        "foot foot";
-    width: 100%;
-    height: 15vh;
-    background-color: #265E6C;
+@media (min-width: 930px) and (max-width: 4000px) {
+    .designFooter{
+        display: grid;
+        grid-template-areas:
+            "head head"
+            "main main"
+            "hr   hr"
+            "foot foot";
+        width: 100%;
+        height: 15vh;
+        background-color: #265E6C;
+    }
+
+    .imgHr{
+        grid-area: hr;
+        width: 100%;
+    }
+
+    .containerLogoText{
+        grid-area: main;
+        display: grid;
+        column-gap: 24px;
+        align-items: center;
+        grid-template-columns: auto auto;
+    }
+
+    .areaMcontigo{
+        display: grid;
+        width: 100%;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .imgMcontigo{
+        width: 220px;
+        height: 30px;
+    }
+
+    .areaTextFooter{
+        align-content:start;
+        width: 100%;
+        font-size: 12px;
+        font-family: Merriweather;
+        color: #FFFF;
+        background-color: #265E6C;
+    }
+
+    .bottomButtonsContainer{
+        grid-area: foot;
+        display: grid;
+        justify-items: center;
+        grid-auto-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .bottomButtons{
+        display: grid;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: #FFFF;
+        height: 24px;
+        font-family: 16px;
+        font-family: sans-serif;
+    }
+
 }
 
-.imgHr{
-    grid-area: hr;
-    width: 100%;
-}
+@media (max-width: 930px) {
+    .designFooter{
+        display: grid;
+        grid-template-areas:
+            "head head"
+            "main main"
+            "hr   hr"
+            "foot foot";
+        width: 100%;
+        height: 15vh;
+        background-color: #265E6C;
+    }
 
-.containerLogoText{
-    grid-area: main;
-    display: grid;
-    column-gap: 24px;
-    align-items: center;
-    grid-template-columns: auto auto;
-}
+    .imgHr{
+        grid-area: hr;
+        width: 100%;
+    }
 
-.areaMcontigo{
-    display: grid;
-    width: 100%;
-    justify-content: end;
-    align-items: center;
-}
+    .containerLogoText{
+        grid-area: main;
+        display: grid;
+        column-gap: 2px;
+        align-items: center;
+        grid-template-columns: auto auto;
+    }
 
-.imgMcontigo{
-    width: 220px;
-    height: 30px;
-}
+    .areaMcontigo{
+        display: grid;
+        width: 100%;
+        justify-content: end;
+        align-items: center;
+    }
 
-.areaTextFooter{
-    align-content:start;
-    width: 100%;
-    font-size: 12px;
-    font-family: Merriweather;
-    color: #FFFF;
-    background-color: #265E6C;
-}
+    .imgMcontigo{
+        width: auto;
+        height: 40%;
+    }
 
-.bottomButtonsContainer{
-    grid-area: foot;
-    display: grid;
-    justify-items: center;
-    grid-auto-flow: column;
-    justify-content: space-evenly;
-}
+    .areaTextFooter{
+        align-content:start;
+        width: 100%;
+        font-size: 9px;
+        font-family: Merriweather;
+        color: #FFFF;
+        background-color: #265E6C;
+    }
 
-.bottomButtons{
-    display: grid;
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: #FFFF;
-    height: 24px;
-    font-family: 16px;
-    font-family: sans-serif;
-}
+    .bottomButtonsContainer{
+        grid-area: foot;
+        display: grid;
+        justify-items: center;
+        grid-auto-flow: column;
+        justify-content: space-evenly;
+    }
 
+    .bottomButtons{
+        display: grid;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: #FFFF;
+        height: 24px;
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+}

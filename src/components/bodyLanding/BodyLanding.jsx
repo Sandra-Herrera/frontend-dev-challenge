@@ -1,16 +1,18 @@
-import React from "react";
+import React, {useLayoutEffect, useState} from "react";
 import styles from "./bodyLanding.module.css";
 import imgMom from "../../img/imgMom.JPG"
 import imgJob from "../../img/imgJob.JPG"
 import imgBrain from "../../img/imgBrain.JPG"
 import imgNum from "../../img/imgNum.JPG"
-import imgHardman from "../../img/imgHardman.jpg"
-import imgLove from "../../img/imgLove.JPG"
-import imgPerson from "../../img/imgPerson.JPG"
-import imgPhone from "../../img/imgPhone.JPG"
+import imgHardman from "../../img/imgHug.JPG"
+import imgLove from "../../img/imgMountain.JPG"
+import imgPerson from "../../img/imgOcean.JPG"
+import imgPhone from "../../img/imgMemory.JPG"
 import Card from "../card/Card"
+import imgMcDonals from "../../img/imgMcDonals.png"
 
 const BodyLanding = () => {
+    const [width] = useWindowSize();
 
     const allArticles = [ //this information can be retrive by API in order to have a page 100% configurable
         {srcImg:imgMom,title:'¿Se puede olvidar la lengua materna?',description:'Hay circunstancias vitales excepcionales que pueden, en ocasiones, difuminar de nuestra mente ese idioma con el que nos criamos durante los primeros años de nuestra vida. Resulta imposible borrar por completo la lengua con las que nos criaron. Sin embargo, sí podemos perder fluidez, agilidad, vocabulario y evidenciar errores sintácticos y gramaticales.'},
@@ -37,20 +39,43 @@ const BodyLanding = () => {
 
     return (
         <main className={styles.mainLayout}>
-            <section className={styles.leftSection}>anuncio a</section>
-
+            <section className={styles.leftSection}>
+                <img src={imgMcDonals} alt="mcDonals" className={styles.imgAdd}></img>
+            </section>
             <section className={styles.articleSection}>
                 <section className={styles.topArticle}>{setDisplay(0,4)}</section>
                 <section className={styles.middleArticle}>
-                    <section className={styles.mainArticle}>{setDisplay(4,1)}</section>
-                    <section className={styles.asideArticle}>{setDisplay(5,3,true)}</section>
+                    {width <= 930 ? 
+                            <section className={styles.asideArticle}>{setDisplay(4,4,true)}</section>
+                        :
+                        <>
+                            <section className={styles.mainArticle}>{setDisplay(4,1)}</section>
+                            <section className={styles.asideArticle}>{setDisplay(5,3,true)}</section>
+                        </>
+                        
+                    }
                 </section>
             </section>
             
-            <section className={styles.rigthSection}>anuncio b</section>
+            <section className={styles.rigthSection}>
+                <img src={imgMcDonals} alt="mcDonals" className={styles.imgAdd}></img>
+            </section>
         </main>
     );
 }
+
+function useWindowSize() {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+      function updateSize() {
+        setSize([window.innerWidth]);
+      }
+      window.addEventListener('resize', updateSize);
+      updateSize();
+      return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+  }
 
 
 export default BodyLanding;

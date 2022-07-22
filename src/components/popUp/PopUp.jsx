@@ -10,15 +10,17 @@ export function Popup(props) {
   return props.visible ? (
     <>
       <div id="myModal" className={styles.modal}>
-        <div className={styles.modalContent}>
-          <span className={styles.close} onClick={onClickCloseModal}>
-            &times;
-          </span>
-          <article>
-            <img src={props.srcImg} alt={props.title} className={styles.img}></img>
-            <p>{props.title}</p>
-            <p>{props.description}</p>
-          </article>
+        <div className={styles.centerContent}>
+          <div className={styles.modalContent}>
+            <span className={styles.close} onClick={onClickCloseModal}>
+              &times;
+            </span>
+            <article className={styles.artContainer}>
+              <img src={props.srcImg} alt={props.title} className={styles.img}></img>
+              <p>{props.title}</p>
+              <p>{props.description}</p>
+            </article>
+          </div>
         </div>
       </div>
     </>

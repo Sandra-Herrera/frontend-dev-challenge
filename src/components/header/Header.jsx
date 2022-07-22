@@ -10,10 +10,10 @@ const Header = () => {
   return (
     <>
       <header className={styles.topHeader}>
-        <img alt="headImg" className={styles.headerImage} src={imgHeader}></img>
-        <button className={styles.hamburgerMenu}>
+        <div className={styles.hamburgerMenu}>
           <Menu/>
-        </button>
+        </div>
+        <img alt="headImg" className={styles.headerImage} src={imgHeader}></img>
         <button className={styles.searchButton}>
             <img alt="search" className={styles.searchIcon} src={iconSearch}></img>
         </button>

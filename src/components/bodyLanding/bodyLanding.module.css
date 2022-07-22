@@ -1,47 +1,98 @@
-.mainLayout{
-    display: grid;
-    grid-template-columns: 1fr repeat(4, 1fr) 1fr;
-    grid-template-areas:
-        "LS arSec arSec arSec arSec RS";
-}
+@media (min-width: 930px) and (max-width: 4000px) {
+    .mainLayout{
+        display: grid;
+        grid-template-columns: 1fr repeat(4, 1fr) 1fr;
+        grid-template-areas:
+            "LS arSec arSec arSec arSec RS";
+    }
 
-.leftSection{
-    grid-area: LS;
-}
+    .leftSection{
+        grid-area: LS;
+    }
 
-.rigthSection{
-    grid-area: RS;
-}
+    .rigthSection{
+        grid-area: RS;
+    }
 
-.mainArticle{
-    grid-area: Mn;
-    height: 100%;
-}
-.asideArticle{
-    grid-area: AA;
-    display:flex;
-    flex-direction: column;
-    gap: 10px;
-}
+    .imgAdd{
+        margin: 0px 10px;
+        width: 90%;
+    }
 
-.articleSection{
-    grid-area: arSec;
-    display:flex;
-    flex-flow: column;
-}
-.topArticle{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .topArticle{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .mainArticle{
+        grid-area: Mn;
+        height: 100%;
+    }
+    .asideArticle{
+        grid-area: AA;
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .articleSection{
+        grid-area: arSec;
+        display:flex;
+        flex-flow: column;
+    }
     
+    .middleArticle{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "Mn AA"
+            "Mn AA"
+            "Mn AA";
+    }
 }
-.middleArticle{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-        "Mn AA"
-        "Mn AA"
-        "Mn AA";
+
+@media (max-width: 930px) {
+    .mainLayout{
+        display: grid;
+        grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
+        grid-template-areas:
+            "LS arSec arSec RS";
+    }
+    .leftSection{
+        grid-area: LS;
+    }
+    .rigthSection{
+        grid-area: RS;
+    }
+    .topArticle{
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mainArticle{
+
+    }
+    .asideArticle{
+        grid-area: AA;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .asideArticle > article {
+        flex-basis: calc(50% - 10px);
+    }
+
+    .articleSection{
+        grid-area: arSec;
+    }
+    
+    .imgAdd{
+        margin: 0px 10px;
+        width: 90%;
+    }
 }

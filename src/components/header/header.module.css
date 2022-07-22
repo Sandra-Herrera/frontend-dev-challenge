@@ -1,36 +1,66 @@
-.topHeader{
-    width: 1340px;
-    height: 7vh;
+@media (min-width: 930px) and (max-width: 4000px) {
+    .topHeader{
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerImage{
+        width: auto;
+        height: inherit;
+    }
+    
+    .hamburgerMenu{
+        cursor: pointer;
+        z-index: 1;
+        width: 35px;
+        height: 22px;
+    }
+    
+    .searchButton{
+        border: none;
+        background: none;
+        right: 95px;
+    }
+    
+    .searchIcon{
+        width: 35px;
+        height: 22px;
+    }
 }
 
-.headerImage{
-    width: 100%;
-}
 
-.hamburgerMenu{
-    display: grid;
-    border: none;
-    background: none;
-    cursor: pointer;
-    position: absolute;
-    top: 30px;
-    left: 95px;
-    z-index: 1;
-}
-
-
-
-.searchButton{
-    display: grid;
-    border: none;
-    background: none;
-    cursor: pointer;
-    position: absolute;
-    top: 35px;
-    right: 95px;
-}
-
-.searchIcon{
-    width: 35px;
-    height: 22px;
+@media (max-width: 930px) {
+    .topHeader{
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerImage{
+        width: auto;
+        height: inherit;
+    }
+    
+    .hamburgerMenu{
+        cursor: pointer;
+        z-index: 1;
+        width: 35px;
+        height: 22px;
+    }
+    
+    .searchButton{
+        border: none;
+        background: none;
+        right: 95px;
+    }
+    
+    .searchIcon{
+        width: 35px;
+        height: 22px;
+    }
 }
