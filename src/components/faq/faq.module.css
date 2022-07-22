@@ -1,0 +1,109 @@
+@media (min-width: 930px) and (max-width: 4000px) {
+.gridContainer{
+    display: grid;
+    grid-template-areas: "ls cs rs";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ls{
+    grid-area: ls;
+}
+
+.cs{
+    grid-area: cs;
+}
+
+.rs{
+    grid-area: rs;
+}
+
+.img{
+    width: 100%;
+}
+
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .unHide{
+    padding: 0 18px;
+    display: block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+}
+
+@media (max-width: 930px) {
+  .gridContainer{
+    display: grid;
+    grid-template-areas: "cs rs";
+    grid-template-columns: 1fr 1fr;
+}
+
+.ls{
+    grid-area: ls;
+}
+
+.cs{
+    grid-area: cs;
+}
+
+.rs{
+    grid-area: rs;
+}
+
+.img{
+    width: 100%;
+}
+
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .unHide{
+    padding: 0 18px;
+    display: block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+}

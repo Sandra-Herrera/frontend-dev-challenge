@@ -70,7 +70,7 @@ ol, li {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  height: 100%;
+  height: calc(100% + 30px);
 }
 
 .carousel__slide {

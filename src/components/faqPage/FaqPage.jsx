@@ -1,24 +1,23 @@
 import React from "react";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import BodyLanding from "../bodyLanding/BodyLanding"
+import Faq from "../faq/Faq"
 import Carousel from "../carousel/Carousel"
 import CarouselTestimony from "../carouselTestimony/CarouselTestimony"
 import Subscribe from "../subscribeNews/SubscribeNews"
 
 
 
-const LandingPage = () => {
+const FaqPage = () => {
     return(
         <>
             <Header/>
             <Carousel/>
-            <BodyLanding/>
-            <CarouselTestimony/>
+            <Faq/>
             <Subscribe/>
             <Footer/>
         </>
     );
 }
 
-export default LandingPage;
+export default FaqPage;
