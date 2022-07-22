@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-dev-challenge/static/css/main.a22ad664.css",
-    "main.js": "/frontend-dev-challenge/static/js/main.d73807b9.js",
+    "main.css": "/frontend-dev-challenge/static/css/main.fd3ccef7.css",
+    "main.js": "/frontend-dev-challenge/static/js/main.61b1a6ab.js",
     "static/js/787.0c3f432a.chunk.js": "/frontend-dev-challenge/static/js/787.0c3f432a.chunk.js",
     "static/media/fifthImg.png": "/frontend-dev-challenge/static/media/fifthImg.aa2f82f1db6f3d9d68b3.png",
     "static/media/thirdImg.png": "/frontend-dev-challenge/static/media/thirdImg.c9dfead0f59c6a86f51e.png",
@@ -9,6 +9,8 @@
     "static/media/firstImg.png": "/frontend-dev-challenge/static/media/firstImg.29f13cc34be852d26cea.png",
     "static/media/fourthImg.png": "/frontend-dev-challenge/static/media/fourthImg.7f2ae8ac1cc04cc79a65.png",
     "static/media/imgMcDonals.png": "/frontend-dev-challenge/static/media/imgMcDonals.bb0787ccdd2d0bcbff8d.png",
+    "static/media/imgEducation.JPG": "/frontend-dev-challenge/static/media/imgEducation.8e3a57b4e2ebda7db2b9.JPG",
+    "static/media/imgBaby.JPG": "/frontend-dev-challenge/static/media/imgBaby.650bf69a4cc27e578e9b.JPG",
     "static/media/imgMemory.JPG": "/frontend-dev-challenge/static/media/imgMemory.b59b6036d970ace1e52c.JPG",
     "static/media/imgNum.JPG": "/frontend-dev-challenge/static/media/imgNum.e8707dc42effe0d8e513.JPG",
     "static/media/imgMom.JPG": "/frontend-dev-challenge/static/media/imgMom.e777fdf4b2046fab837e.JPG",
@@ -20,12 +22,12 @@
     "static/media/imgComputer.JPG": "/frontend-dev-challenge/static/media/imgComputer.79e17b3bcfd31db1596e.JPG",
     "static/media/iconCheck.png": "/frontend-dev-challenge/static/media/iconCheck.cd61f55e9c05a339201d.png",
     "index.html": "/frontend-dev-challenge/index.html",
-    "main.a22ad664.css.map": "/frontend-dev-challenge/static/css/main.a22ad664.css.map",
-    "main.d73807b9.js.map": "/frontend-dev-challenge/static/js/main.d73807b9.js.map",
+    "main.fd3ccef7.css.map": "/frontend-dev-challenge/static/css/main.fd3ccef7.css.map",
+    "main.61b1a6ab.js.map": "/frontend-dev-challenge/static/js/main.61b1a6ab.js.map",
     "787.0c3f432a.chunk.js.map": "/frontend-dev-challenge/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a22ad664.css",
-    "static/js/main.d73807b9.js"
+    "static/css/main.fd3ccef7.css",
+    "static/js/main.61b1a6ab.js"
   ]
 }
