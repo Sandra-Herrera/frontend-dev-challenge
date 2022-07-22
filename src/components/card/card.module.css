@@ -16,12 +16,22 @@
         height:"100%";
     }
 
+    .displayFlexRow:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: gray;
+    }
+
     .displayFlexColumn{
         height: inherit;
         display: flex;
         flex-flow: column;
         width:"99%"; 
         height:"100%";
+    }
+
+    .displayFlexColumn:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: gray;
     }
 }
 
