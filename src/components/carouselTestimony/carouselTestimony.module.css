@@ -53,7 +53,7 @@ ol, li {
 .carousel {
   position: relative;
   perspective: 100px;
-  height: 12vh;
+  height: 20vh;
 }
 
 .carousel__viewport {
@@ -180,7 +180,7 @@ ol, li {
 .gridContainter{
   display: grid;
   grid-template-areas: "ls center center center center lr";
-  grid-template-rows: 25vh;
+  grid-template-rows: 35vh;
 }
 
 .lSide{
@@ -192,7 +192,7 @@ ol, li {
 
 .cSide{
   grid-area: center;
-  height: 20vh;
+  height: inherit;
   
 }
 
@@ -230,7 +230,7 @@ ol, li {
   .carousel {
     position: relative;
     perspective: 100px;
-    height: 20vh;
+    height: 15vh;
   }
 
   .cSide{
