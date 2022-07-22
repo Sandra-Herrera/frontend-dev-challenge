@@ -40,8 +40,7 @@ const CarouselTestimony = () => {
                                 {
                                     allTestimonies.map((element,index)=>
                                         <li key={`bottom${index}`} className={styles.carousel__navigation_item}>
-                                            <a href={`#carousel__slide${index}`}
-                                                className={styles.carousel__navigation_button}>Go to slide {index+1}</a>
+                                            
                                         </li>
                                     )
                                 }
